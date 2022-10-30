@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form action="" class="practice-form">
+        <h1>Practice Form</h1>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+        <label for="selection">Select an item:</label>
+        <select name="selection" id="selection">
+            <option value="item1">Item 1</option>
+            <option value="item2">Item 2</option>
+            <option value="item3">Item 3</option>
+        </select>
+        <fieldset class="checkboxes__container">
+            <legend>Select from the following items:</legend>
+            <div class="checkboxes">
+                <div>
+                    <input type="checkbox" name="check1" id="check1">
+                    <label for="check1">Check Box 1 </label>
+                </div>
+                <div>
+                    <input type="checkbox" name="check2" id="check2">
+                    <label for="check2">Check Box 2</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="check3" id="check3">
+                    <label for="check3">Check Box 2</label>
+                </div>
+            </div>
+        </fieldset>
+        <label for="date">Pick a date:</label>
+        <input type="date" name="date" id="date">
+        <button type="submit" class="btn__submit">Submit</button>
+    </form>
+</body>
+</html>
